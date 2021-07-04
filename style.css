@@ -1,0 +1,32 @@
+body {
+  font-family: "Manrope", sans-serif;
+  margin: 0%;
+}
+p {
+  text-align: justify;
+}
+.green {
+  color: rgb(114, 245, 39);
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding: 5%;
+}
+.half-width img {
+  width: 60%;
+}
+.link-btn {
+  text-decoration: none;
+  background-color: orange;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-image: linear-gradient(orange, tomato);
+  font-weight: 700;
+}
+.top-banner {
+  background-image: url(img/top-banner.png);
+  background-repeat: no-repeat;
+}
