@@ -8,9 +8,9 @@ p {
 .green {
   color: rgb(114, 245, 39);
 }
-section {
+.flex-container {
   display: flex;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 .half-width {
   width: 50%;
@@ -38,4 +38,32 @@ section {
 }
 .btm-img {
   margin-left: 30%;
+}
+.exp-item {
+  box-shadow: 10px 10px 10px 15px yellowgreen;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  border-radius: 10px;
+}
+#color-border-ylw {
+  border-left: 10px solid;
+  border-image: linear-gradient(red, orange);
+  border-image-slice: 1;
+}
+#color-border-red {
+  border-left: 10px solid;
+  border-image: linear-gradient(green, blue);
+  border-image-slice: 1;
+}
+.exp-area {
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#fot-style {
+  text-align: center;
+  color: darkred;
+  text-shadow: deeppink;
 }
