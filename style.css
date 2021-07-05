@@ -10,6 +10,7 @@ p {
 }
 section {
   display: flex;
+  margin-bottom: 0px;
 }
 .half-width {
   width: 50%;
@@ -29,4 +30,12 @@ section {
 .top-banner {
   background-image: url(img/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.btm-img {
+  margin-left: 30%;
 }
